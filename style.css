@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(imagens/fundo-madeira.jpg);
+}
+
+
+
+.img{
+    display: block;
+    border: 1px solid transparent;
+    border-radius: 200px;
+    height: 3rem;
+    margin-top: 1.5rem;
+}
+
+.img:hover{
+    padding-left: .3rem;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    height: 520px;
+    border: 1px solid transparent;
+}
+
+div > img{
+    display: block;
+    margin: auto;
+}
+
+.cel{
+    position: absolute;
+}
