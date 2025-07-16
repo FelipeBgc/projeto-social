@@ -7,7 +7,10 @@ body{
     background-image: url(imagens/fundo-madeira.jpg);
 }
 
-
+#logo{
+    position: absolute;
+    
+}
 
 .img{
     display: block;
@@ -21,18 +24,23 @@ body{
     padding-left: .3rem;
 }
 
+
 iframe{
-    display: block;
-    margin: auto;
-    height: 520px;
+    position: absolute;
+    margin-left: 35%;
+    top: 4rem;
+    width: 330px;
     border: 1px solid transparent;
 }
 
-div > img{
-    display: block;
-    margin: auto;
+.cel{
+    z-index: calc(-1);
+    position: fixed;
+    height: 500px;
 }
 
-.cel{
-    position: absolute;
+.imagens{
+    padding-top: 4rem;
+    padding-left: .3rem;
+    height: 340px;
 }
